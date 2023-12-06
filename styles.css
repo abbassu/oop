@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.shape {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  margin: 20px auto;
+}

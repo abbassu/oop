@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sty.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Travel reservation form</h1>
+
+    <form action="">
+      <div class="">
+        <label for="fullname">Full name*:</label><br />
+        <input
+          type="text"
+          name=""
+          id="fullname"
+          required
+          placeholder="FirstName LastName"
+        />
+      </div>
+
+      <div class="">
+        <label for="email">Email address*:</label><br />
+        <input
+          type="email"
+          name=""
+          id="email"
+          required
+          placeholder="EMAIL_ADDRESS"
+        />
+      </div>
+
+      <div>
+        <label for="select-option">Select Tour Package* : </label><br />
+        <select id="select-option">
+          <option value="Goa">Goa</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option4">Option 4</option>
+        </select>
+      </div>
+
+      <div class="">
+        <label for="arrival_date">Arrival date*:</label><br />
+        <input
+          type="date"
+          name=""
+          id="arrival_date"
+          required
+          placeholder="m/d/y"
+        />
+      </div>
+
+      <div class="">
+        <label for="num_person">Number of persons*:</label><br />
+        <input
+          type="text"
+          name=""
+          id="num_person"
+          required
+          placeholder="UNKNOWN_TYPE"
+        />
+      </div>
+
+      <div>
+        <span class="what">What would you want to avail?*</span> <br />
+        <div>
+          <input
+            type="checkbox"
+            id="boarding"
+            name="boarding"
+            value="boarding"
+          />
+          <label for="boarding">Boarding </label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="fooding" name="fooding" value="fooding" />
+          <label for="fooding">Fooding</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="s_seeing"
+            name="Sightseeing"
+            value="Sightseeing"
+          />
+          <label for="s_seeing">Sight seeing</label>
+        </div>
+      </div>
+      <br />
+
+      <div class="">
+        <label for="discount_cobon_code">Discount Coupon code:</label><br />
+        <input type="text" name="" id="discount_cobon_code" />
+      </div>
+      <br />
+
+      <div>
+        <span class="what"> Terms adn conditions* </span>
+        <br />
+        <input type="radio" id="agree" name="decisoin" value="agree" />
+        <label for="agree">i agree</label>
+
+        <input type="radio" id="disagree" name="decisoin" value="disagree" />
+        <label for="disagree">i disagree</label>
+      </div>
+      <br />
+
+      <button type="submit">Complete reservation</button>
+    </form>
+    <footer>
+      <p>Copyright © Your Website 2023</p>
+    </footer>
+  </body>
+</html>
